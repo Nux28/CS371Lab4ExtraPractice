@@ -1,6 +1,7 @@
 package edu.up.cs371lab4extrapractice;
 
 import android.os.Bundle;
+import android.util.Log;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +21,8 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        //person 1 change: log message
+        Log.d("lab", "this is a log message yo");
     }
 }
